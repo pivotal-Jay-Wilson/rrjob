@@ -1,0 +1,3 @@
+cf commands
+cf create-job batch-example my-job "npm run-script load"
+cf run-job my-job

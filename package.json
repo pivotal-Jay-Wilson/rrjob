@@ -1,0 +1,33 @@
+{
+  "name": "rrjob",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./dist/app.js hold",
+    "load": "node ./dist/app.js load",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jay Wilson",
+  "license": "MIT",
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/cheerio": "^0.22.16",
+    "@types/xml2js": "^0.4.5",
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "configstore": "^5.0.0",
+    "figlet": "^1.2.4",
+    "log4js": "^6.1.2",
+    "minimist": "^1.2.0",
+    "moment": "^2.24.0",
+    "rss-parser": "^3.7.5",
+    "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "@types/figlet": "^1.2.0",
+    "@types/minimist": "^1.2.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.5"
+  }
+}

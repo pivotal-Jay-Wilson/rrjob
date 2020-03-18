@@ -19,7 +19,7 @@
     "configstore": "^5.0.0",
     "figlet": "^1.2.4",
     "log4js": "^6.1.2",
-    "minimist": "^1.2.0",
+    "minimist": "^1.2.2",
     "moment": "^2.24.0",
     "rss-parser": "^3.7.5",
     "xml2js": "^0.4.23"
